@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_splash">
+
+    <fragment
+        android:id="@+id/nav_splash"
+        android:name="com.edunova.ui.screens.splash.SplashFragment"
+        android:label="Splash"
+        tools:layout="@layout/fragment_splash" />
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.edunova.ui.screens.auth.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.edunova.ui.screens.auth.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.edunova.ui.screens.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_lessons"
+        android:name="com.edunova.ui.screens.lesson.LessonFragment"
+        android:label="Lessons"
+        tools:layout="@layout/fragment_lesson" />
+
+    <fragment
+        android:id="@+id/nav_lesson_detail"
+        android:name="com.edunova.ui.screens.lesson.LessonDetailFragment"
+        android:label="Lesson Detail"
+        tools:layout="@layout/fragment_lesson_detail">
+        <argument
+            android:name="lessonId"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="com.edunova.ui.screens.progress.ProgressFragment"
+        android:label="Progress"
+        tools:layout="@layout/fragment_progress" />
+
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="com.edunova.ui.screens.quiz.QuizFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.edunova.ui.screens.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.edunova.ui.screens.about.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.edunova.ui.screens.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>
+

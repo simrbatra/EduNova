@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EduNova AI Tutor</string>
+    <string name="welcome_message">Welcome to EduNova AI Tutor</string>
+    <string name="start_learning">Start Learning</string>
+    <string name="view_progress">View Progress</string>
+    <string name="voice_mode">Voice Mode</string>
+    <string name="offline_mode">Offline Mode</string>
+</resources>
